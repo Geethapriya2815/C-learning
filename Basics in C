@@ -1,14 +1,13 @@
-C Language Introduction
-Last Updated : 10 Jan, 2025
+
 C is a procedural programming language initially developed by Dennis Ritchie in the year 1972 at Bell Laboratories of AT&T Labs. It was mainly developed as a system programming language to write the UNIX operating system.
 
 C Language Introduction
 The main features of the C language include:
 
 General Purpose and Portable
-Low-level Memory Access
-Fast Speed
-Clean Syntax
+-Low-level Memory Access
+-Fast Speed
+-Clean Syntax
 These features make the C language suitable for system programming like an operating system or compiler development.
 
 Why Should We Learn C?
@@ -19,10 +18,10 @@ So,  if a person learns C programming first, it will help them to learn any mode
 Difference Between C and C++
 C++ was created to add the OOPs concept into the C language so they both have very similar syntax with a few differences. The following are some of the main differences between C and C++ Programming languages.
 
-C++ supports OOPs paradigm while C only has the procedural concept of programming.
-C++ has exception handling capabilities. In C, we have to resolve exceptions manually.
-There are no references in C.
-There are many more differences between C and C++ which are discussed here: Difference between C and C++
+-C++ supports OOPs paradigm while C only has the procedural concept of programming.
+-C++ has exception handling capabilities. In C, we have to resolve exceptions manually.
+-There are no references in C.
+-There are many more differences between C and C++ which are discussed here: Difference between C and C++
 
 Beginning with C Programming
 Writing the First Program in C
@@ -62,12 +61,12 @@ Components of a C Program:
 The first and foremost component is the inclusion of the Header files in a C program. A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files. All lines that start with # are processed by a preprocessor which is a program invoked by the compiler. In the above example, the preprocessor copies the preprocessed code of stdio.h to our file. The .h files are called header files in C.
 Some of the C Header files:
 
-stddef.h – Defines several useful types and macros.
-stdint.h – Defines exact width integer types.
-stdio.h – Defines core input and output functions
-stdlib.h – Defines numeric conversion functions, pseudo-random number generator, and memory allocation
-string.h – Defines string handling functions
-math.h – Defines common mathematical functions.
+-stddef.h – Defines several useful types and macros.
+-stdint.h – Defines exact width integer types.
+-stdio.h – Defines core input and output functions
+-stdlib.h – Defines numeric conversion functions, pseudo-random number generator, and memory allocation
+-string.h – Defines string handling functions
+-math.h – Defines common mathematical functions.
 2. Main Method Declaration – Line 2 [int main()]
 The next part of a C program is to declare the main() function. It is the entry point of a C program and the execution typically begins with the first line of the main(). The empty brackets indicate that the main doesn’t take any parameter (See this for more details). The int that was written before the main indicates the return type of main(). The value returned by the main indicates the status of program termination. See this post for more details on the return type.
 
@@ -83,21 +82,20 @@ The last part of any C function is the return statement. The return statement re
 How to Execute the Above Program?
 In order to execute the above program, we need to first compile it using a compiler and then we can run the generated executable. There are online IDEs available for free like GeeksforGeeksIDE, that can be used to start development in C without installing a compiler.
 
-Windows: There are many free IDEs available for developing programs in C like Code Blocks and Dev-CPP. IDEs provide us with an environment to develop code, compile it and finally execute it. We strongly recommend Code Blocks.
-Linux: GCC compiler comes bundled with Linux which compiles C programs and generates executables for us to run. Code Blocks can also be used with Linux. 
-macOS: macOS already has a built-in text editor where you can just simply write the code and save it with a “.c” extension.
-Application of C 
-Operating systems: C is widely used for developing operating systems such as Unix, Linux, and Windows.
-Embedded systems: C is a popular language for developing embedded systems such as microcontrollers, microprocessors, and other electronic devices.
-System software: C is used for developing system software such as device drivers, compilers, and assemblers.
-Networking: C is widely used for developing networking applications such as web servers, network protocols, and network drivers.
-Database systems: C is used for developing database systems such as Oracle, MySQL, and PostgreSQL.
-Gaming: C is often used for developing computer games due to its ability to handle low-level hardware interactions.
-Artificial Intelligence: C is used for developing artificial intelligence and machine learning applications such as neural networks and deep learning algorithms.
-Scientific applications: C is used for developing scientific applications such as simulation software and numerical analysis tools.
-Financial applications: C is used for developing financial applications such as stock market analysis and trading systems.
-C Hello World Program
-Last Updated : 14 Jan, 2025
+-Windows: There are many free IDEs available for developing programs in C like Code Blocks and Dev-CPP. IDEs provide us with an environment to develop code, compile it and finally execute it. We strongly recommend Code Blocks.
+-Linux: GCC compiler comes bundled with Linux which compiles C programs and generates executables for us to run. Code Blocks can also be used with Linux. 
+-macOS: macOS already has a built-in text editor where you can just simply write the code and save it with a “.c” extension.
+-Application of C 
+-Operating systems: C is widely used for developing operating systems such as Unix, Linux, and Windows.
+-Embedded systems: C is a popular language for developing embedded systems such as microcontrollers, microprocessors, and other electronic devices.
+-System software: C is used for developing system software such as device drivers, compilers, and assemblers.
+-Networking: C is widely used for developing networking applications such as web servers, network protocols, and network drivers.
+-Database systems: C is used for developing database systems such as Oracle, MySQL, and PostgreSQL.
+-Gaming: C is often used for developing computer games due to its ability to handle low-level hardware interactions.
+-Artificial Intelligence: C is used for developing artificial intelligence and machine learning applications such as neural networks and deep learning algorithms.
+-Scientific applications: C is used for developing scientific applications such as simulation software and numerical analysis tools.
+-Financial applications: C is used for developing financial applications such as stock market analysis and trading systems.
+
 The “Hello World” program is the first step towards learning any programming language. It is also one of the simplest programs that is used to introduce aspiring programmers to the programming language. It typically outputs the text “Hello, World!” to the console screen.
 
 C Program to Print “Hello World”
